@@ -4,7 +4,7 @@ import './ExpenseForm.css';
   const ExpenseForm = ({ charge, handleCharge, amount, handleAmount,handleSubmit }) => {
   
     return (
-       <form onsubmit={handleSubmit}>
+       <form onSubmit={handleSubmit}>
             <div className= 'form-center'>
                 <div className= 'form-group'>
                     <label htmlFor='charge'>상품</label>
