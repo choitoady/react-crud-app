@@ -29,3 +29,4 @@ const ExpenseItem = ({expense, handleEdit, handleDelete }) => {
 }
 
 export default ExpenseItem
+
