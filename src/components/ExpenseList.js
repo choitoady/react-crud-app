@@ -25,8 +25,9 @@ const ExpenseList = ({ expenses, initialExpenses, handleDelete, handleEdit, clea
       </>
   ) 
 }
-
+//함수표현식 , 함수 선언식은 function expenseList() {} 이렇게 생김
 export default ExpenseList
+
 
 
 
